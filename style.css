@@ -1,0 +1,381 @@
+html{
+    padding: 0;
+    box-sizing: border-box;
+    background: no-repeat 80% 15% / cover fixed url("../img/bg.png");
+    background-color: #302188;
+    
+}
+
+html, body {
+	height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+	display: table;
+	height: 100%;
+    width: 100%;
+}
+
+
+
+main{
+    
+    width: 1300px;
+    margin: 300px 0px 10% 250px;
+    background: rgba(255, 255, 80, 90%);
+    color: rgba(128, 0, 255);
+    opacity: 90%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    z-index: 0;
+	border-radius: 15px;
+    padding: 10px 50px;
+    padding-bottom: 50px;
+}
+
+
+.container{
+    height: 400px;
+    width: 400px;
+    margin: 200px 700px;
+    background: rgba(255, 255, 80, 90%);
+    color: rgba(128, 0, 255);
+    opacity: 90%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+}
+
+.order_container{
+    width: 800px;
+    margin: 200px 450px;
+    background: rgba(255, 255, 80, 90%);
+    color: rgba(128, 0, 255);
+    opacity: 90%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    border-radius: 30px;
+    padding-bottom: 50px;
+}
+
+header{
+    height: 50px;
+    min-width: 100%;
+    background: rgba(255, 255, 120);
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    font-family: 'Times New Roman';
+    padding: 10px 0px;
+}
+
+input {
+	background-color: rgba(255, 255, 128);
+	border-color:  rgba(128, 0, 255);
+	color:  rgba(128, 0, 255);
+	border-radius: 25px;
+}
+
+::placeholder{
+	padding-left: 5px;
+	color: rgba(200, 150, 255);
+	font-family: 'Times New Roman';
+}
+
+input:focus{
+	outline: none;
+}
+
+
+
+input[type="text"]{
+    padding-left: 5px;
+}
+input[type="password"]{
+    padding-left: 5px;
+}
+
+
+
+
+main input[type="text"]{
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 200);
+}
+
+input[type="submit"]{
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),  inset -1px -1px 3px rgba(0, 0, 0, 0.4), inset 3px 3px 10px rgba(250, 250, 250, 0.6);
+    font-family: 'Times New Roman';
+}
+
+
+.input_text{
+    margin: 20px 100px;
+}
+
+.input_text2{
+    margin: 15px 100px;
+}
+
+
+
+.container input[type="submit"]{
+    width: 200px;
+}
+
+.order_container input[type="submit"]{
+    width: 200px;
+}
+
+
+.container input[type="text"]{
+    background-color: rgba(255, 255, 200);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 190px;
+}
+
+.container input[type="password"]{
+    background-color: rgba(255, 255, 200);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 190px;
+}
+
+.order_container input[type="text"]{
+    background-color: rgba(255, 255, 200);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 190px;
+    margin-left: 40px;
+}
+
+.order_container input[type="password"]{
+    background-color: rgba(255, 255, 200);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4), inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    width: 190px;
+    margin-left: 40px;
+}
+
+
+.input_text:active{
+    color: rgba(200, 150, 255);
+}
+
+
+.input_text2:active{
+    color: rgba(200, 150, 255);
+}
+
+
+
+p{
+    padding: 20px 20px 0px 20px;
+}
+
+
+
+td{
+    color: rgba(128, 0, 255);
+    border-left: 2px solid  rgba(128, 0, 255);
+    border-top: 2px solid  rgba(128, 0, 255);
+}
+
+
+
+th{
+    border-left: 2px solid  rgba(128, 0, 255);
+    border-top: 2px solid  rgba(128, 0, 255);
+	border-radius: 5px;
+}
+
+
+.authorization {
+    position: absolute;
+    margin: -50px 0px 0px 80%;
+    
+}
+
+.registration{
+    position: relative;
+    margin: -50px 2% 0 90%;
+}
+
+
+
+.login_button{
+    margin-top: 1px;
+    height: 48px;
+    width: 120px;
+    background: rgba(255, 255, 128);
+    border: none;
+    border: 2px solid rgba(128, 0, 255);
+	border-radius: 15px;
+    font-size: 20px;
+}
+
+
+#title{
+    margin: 0px 0px 0px 50px;
+    font: 40px solid;
+    color: rgba(128, 0, 255);
+    background: none;
+    border: none;
+    box-shadow: 0 0 0;
+}
+
+
+#title:active{
+    color: rgba(200, 150, 255);
+}
+
+
+th:hover {
+    color: rgba(200, 150, 255);
+}
+
+
+th:active {
+    background-color: rgba(128, 0, 255);
+}
+
+
+
+.label1{
+    margin: -60px 10% 0px 0px; 
+    text-shadow: 0 0 0px;
+    color: rgba(200, 150, 255);
+}
+
+.label2{
+    margin: -20px 10% 0px 0px; 
+    text-shadow: 0 0 0px;
+    color: rgba(200, 150, 255);
+}
+
+.exit{
+    position: absolute;
+    margin: -45px 2% 0 90%;
+}
+
+
+.id_button{
+    height: 35px;
+    width: 110px;
+    background: rgba(255, 255, 150);
+    border: none;
+    border-radius: 1px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),  inset -1px -1px 3px rgba(0, 0, 0, 0.2), inset 3px 3px 10px rgba(250, 250, 250, 0.6);
+}
+
+
+.id_button:hover {
+    color: rgba(200, 150, 255);
+    
+}
+.id_button:active {
+    background-color: rgba(128, 0, 255);
+}
+
+
+
+.del_button{
+    height: 35px;
+    width: 75px;
+    background: rgba(255, 255, 150);
+    border: none;
+    border-radius: 1px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4),  inset -1px -1px 3px rgba(0, 0, 0, 0.2), inset 3px 3px 10px rgba(250, 250, 250, 0.6);
+}
+
+
+.del_button:hover {
+    color: rgba(200, 150, 255);
+    
+}
+.del_button:active {
+    background-color: rgba(128, 0, 255);
+}
+
+
+
+
+#order_list_button{
+    margin: 5px 0px 5px 82%;
+    height: 30px;
+    width: 200px;
+    
+}
+
+#order_button{
+    margin: 5px 0px 5px 38%;
+    height: 30px;
+    width: 200px;
+}
+
+
+#return_button{
+    margin: 5px 0px 5px 10px;
+    height: 30px;
+    width: 100px;
+}
+
+
+
+#find_button{
+    margin-left: 30%;
+    height: 30px;
+    width: 200px;
+}
+
+
+input[type="submit"]:active {
+    background-color: rgba(128, 0, 255);
+	color: rgba(200, 150, 255);
+}
+
+input[type="submit"]:hover {
+	color: rgba(200, 150, 255);
+}
+
+
+.textbox{
+    margin: 10px 50px 5px 0px;
+    height: 20px;
+}
+
+
+#complete_text{
+    margin: 5px 0px 5px 0px;
+    color:green;
+    font-size: 30px;
+}
+
+
+table{
+    width: 100%;
+    border-right: 2px solid  rgba(128, 0, 255);
+    border-bottom: 2px solid  rgba(128, 0, 255);
+    border-radius: 5px;
+}
+
+
+
+.error_text{
+    color: red;
+    margin: -30px 0px 20px 85px;
+}
+
+
+#add_button{
+    border-radius: 1px;
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+
+.add_text{
+    border: none;
+    margin: -3px -3px;
+    width: 100%;
+    height: 35px;
+    border-radius: 1px;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
